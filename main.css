@@ -1,0 +1,52 @@
+.cadre{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 65%;
+    display: flex;
+}
+.photo{
+    width: 30%;
+    height: 30%; 
+    border: solid 2px black;
+    margin-right: 1em;
+    padding: 1px;
+    
+}
+.photo:hover{
+    width:35%;
+    
+}
+.container{
+
+}
+.description{
+    text-align:justify;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.section{
+    margin-top:50px;
+}
+.titre_Parties{
+    text-align: center;
+    font-size: x-large;
+}
+.valeurs{
+   margin-left: auto;
+   margin-right: auto;
+    max-width:50%;
+}
+
+.footer{
+    margin-top: 3em;
+}
+
+.u-flex{
+
+}
+.u-flex--column{
+
+}
+.u-flex__item{
+    flex: 1 1 auto;
+}
