@@ -7,17 +7,16 @@ function add (a, b) {
     return a+b
 }
 
-/* document.querySelector('#nomDeLelement')
+var message = document.querySelector("message").value
+var email = document.querySelector("email").value//. c'est pour dire que c'est une classe
+document.querySelector('#formulaire')
     .addEventListener("click",function writeToChat (event) {
-        var message = document.querySelector("#message").value
-        var discussionElt = document.querySelector(".discussion")//. c'est pour dire que c'est une classe
-        var nickname= document.querySelector("#nickname").value
-
-        axios.post('/api/messafe', {
+        
+        axios.post('/api/message', {
             message: 'Michel',
             nickname: 'Michel'
         })
-    }) */
+    }) 
 
 //Les 7 types sur js, le dernier a partir de juin 2020
 //Number
