@@ -14,7 +14,6 @@
 .photo{
     width: 25%;
     height: 25%; 
-    border: solid 2px black;
     margin-right: 1em;
     padding: 1px;
 }
@@ -62,7 +61,7 @@
 
 .values{
     margin-top: 3em;
-    background-color:whitesmoke;
+    background-color:white;
     padding-bottom: 2em;
     padding-top: 1em;
     margin: auto;
@@ -93,4 +92,32 @@
 
 .u-flex__item{
     flex: 1 1 auto;
+}
+
+nav li{
+    display:inline-block;
+    width:160px;
+    height: 40px;
+    margin: 0px;
+    padding:0px;
+    border-right: 1px solid white;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav ul{
+    padding: 0px;
+    margin:0px;
+    list-style-type: none;
+    background-color: crimson;
+}
+
+nav li a{
+    display:block;
+    text-decoration:none;
+    color: white;
+}
+
+nav li :hover{
+    background-color: black;
 }

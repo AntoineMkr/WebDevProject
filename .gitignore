@@ -1,3 +1,4 @@
 notre_modules/
 dist/
 .cache/
+node_modules
