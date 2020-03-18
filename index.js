@@ -1,45 +1,12 @@
-import axios from "axios"
-
-
-console.log("hello word");
-
-function add (a, b) {
-    return a+b
-}
-
-var message = document.querySelector("message").value
-var email = document.querySelector("email").value//. c'est pour dire que c'est une classe
-document.querySelector('#formulaire')
-    .addEventListener("click",function writeToChat (event) {
-        
-        axios.post('/api/message', {
-            message: 'Michel',
-            nickname: 'Michel'
-        })
-    }) 
-
-
 const express = require('express')
 const app = express()
 const port = 3000
 
-app.use(function (req, res, next) {
+
+app.use('*',function (req, res) {
     res.status(404).send("Sorry can't find that!")
-  })
-//Les 7 types sur js, le dernier a partir de juin 2020
-//Number
-//String
-//Boolean
-//Null
-//Undefined
-//Symbol
-//Objet
-//ES2020 => BigIn
+  });
 
-//Pas de classe en js
-
-
-//camelCase     variable
-//PascalCase    fonction
-//kebab-case    
-//snake_case
+  app.use('test',function (req, res) {
+    res.status(200).send("Embrasse moi")
+  });

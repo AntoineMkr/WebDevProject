@@ -79,25 +79,11 @@
 }
 
 
-.formulaire{
-    display: table;
-    margin-right: auto;
-    margin-left: auto;
-    max-width:75%;
-    height: 5em;
-    padding-top:2em;
-}
-.email{
-    margin-right: 2em;;
-}
-.message{
-    margin-right: 2em;
-}
 
 .footer{
     border-top: 1px black;
     margin-top: 3em;
-    background-color: crimson;
+    background-color: grey;
 }
 
 
@@ -105,30 +91,9 @@
     flex: 1 1 auto;
 }
 
-nav li{
-    display:inline-block;
-    width:160px;
-    height: 40px;
-    margin: 0px;
-    padding:0px;
-    border-right: 1px solid white;
-    text-align: center;
-    line-height: 40px;
+.form{
+    margin-right: 15em;
+    margin-left: 15em;
 }
 
-nav ul{
-    padding: 0px;
-    margin:0px;
-    list-style-type: none;
-    background-color: white;
-}
 
-nav li a{
-    display:block;
-    text-decoration:none;
-    color: black;
-}
-
-nav li :hover{
-    background-color: black;
-}
