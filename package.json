@@ -1,10 +1,11 @@
 {
-  "name": "WebDevProject",
+  "name": "webdevproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "projet pi2",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "parcel": "^1.12.4"
   },
   "devDependencies": {},
@@ -16,7 +17,7 @@
     "url": "git+https://github.com/AntoineMkr/WebDevProject.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lou Prevot",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AntoineMkr/WebDevProject/issues"
