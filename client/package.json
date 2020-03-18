@@ -1,25 +1,23 @@
 {
-  "name": "WebDevProject",
+  "name": "webdevproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "projet pi2",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.19.2",
-    "parcel-bundler": "^1.12.4"
+    "express": "^4.17.1",
+    "parcel": "^1.12.4"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "parcel index.html",
-    "build" : "parcel build index.html",
-    "predeploy": "npm run build",
-    "deploy": "surge dist SentimentAnalysis.surge.sh"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AntoineMkr/WebDevProject.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lou Prevot",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AntoineMkr/WebDevProject/issues"
