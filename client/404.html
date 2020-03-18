@@ -14,24 +14,32 @@
 
   </head>
   <body onload="redirect()">
-    <nav class="navbar navbar-light" style="background-color: white;">
-        <a class="navbar-brand" href="#">
-          <img src="https://upload.wikimedia.org/wikipedia/fr/6/60/Logo_ESILV.svg" width="130" height="40" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-           <div class="navbar-nav">
-             <a class="nav-item nav-link active" href="index.html">About us<span class="sr-only">(current)</span></a>
-             <a class="nav-item nav-link" href="sentiment.html">Our project</a>
-             <a class="nav-item nav-link" href="contact.html">Contact us</a>
-            </div>
-          </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/fr/6/60/Logo_ESILV.svg" width="130" height="40" alt="">
+      </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link" href="index.html">About us<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="sentiment.html">Our project</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="contact.html">Contact us</a>
+               </li>
+             </ul>
+           </div>
+         </nav>  
 	<h1 style="text-align: center; padding-top: 50px; display: block;">Erreur 404</h1>
-  <h2 style="text-align: center; padding-top: 50px; display: block;">Cette page n'a pas été trouvée</h2>
-  <button type="button" class="btn btn-primary btn-lg" style="text-align: center;">Page d'accueil</button>
+  <h3 style="text-align: center; padding-top: 50px; display: block;">Cette page n'a pas été trouvée</h3>
+  <div style="text-align: center;"><a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Page d'accueil</a></div>
+  <div style="text-align: center;"><a href="contact.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Contactez nous</a></div>
+
 
   <script src="./index.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
