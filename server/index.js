@@ -11,7 +11,7 @@ app.get('/api/version', function getVersion (req, res) {
 
 app.use(function (req, res, next) {
   res.status(404)
-  res.sendFile(path.join(__dirname, '../client/dist/404.html'))
+  res.sendFile(path.join(__dirname, '../client/404.html'))
 })
 
 app.listen(port, () => console.log(`Listening ! Go to http://localhost:${port}!`))
