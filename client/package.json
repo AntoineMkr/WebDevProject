@@ -5,8 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.19.2",
+<<<<<<< HEAD
     "express": "^4.17.1",
     "parcel": "^1.12.4"
+=======
+    "parcel-bundler": "^1.12.4"
+>>>>>>> 0e6b9277cdb557519e5802d93663a59cf610e18d
   },
   "devDependencies": {},
   "scripts": {
