@@ -120,13 +120,13 @@ nav ul{
     padding: 0px;
     margin:0px;
     list-style-type: none;
-    background-color: crimson;
+    background-color: white;
 }
 
 nav li a{
     display:block;
     text-decoration:none;
-    color: white;
+    color: black;
 }
 
 nav li :hover{
