@@ -1,3 +1,8 @@
+
+.menu{
+    
+}
+
 .cadre{
     margin-right: auto;
     margin-left: auto;
@@ -6,10 +11,14 @@
 
 }
 
-
+h1{
+    text-align: center;
+}
 .equipe{
-    margin: auto;
+    padding-top: 1em;
+    margin: 0 auto;
     height:20em;
+    background-color: whitesmoke;
 }
 .photo{
     width: 25%;
@@ -19,7 +28,8 @@
     padding: 1px;
 }
 .photo:hover{
-    width:35%;
+    width:30%;
+    position: relative;
     
 }
 
@@ -32,11 +42,11 @@
 
 .histoire{
     margin-top: 3em;
-    background-color:whitesmoke;
+    background-color: white;
     padding-bottom: 2em;
     padding-top: 1em;
 }
-.section{
+section{
     margin-top:50px;
 }
 
@@ -62,7 +72,7 @@
 
 .values{
     margin-top: 3em;
-    background-color:whitesmoke;
+    background-color: white;
     padding-bottom: 2em;
     padding-top: 1em;
     margin: auto;
