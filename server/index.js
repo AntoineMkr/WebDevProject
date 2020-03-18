@@ -5,9 +5,7 @@ const port = 3000
 
 app.use(express.static('../client/dist'))
 
-app.get('/api/version', function getVersion (req, res) {
-  res.send('0.0.2')
-})
+
 
 app.use(function (req, res, next) {
   res.status(404)
