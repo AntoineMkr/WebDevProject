@@ -9,7 +9,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build" : "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "surge dist SentimentAnalysis.surge.sh"
   },
   "repository": {
     "type": "git",
