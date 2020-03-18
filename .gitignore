@@ -125,6 +125,10 @@ typings/
 
 # rollup.js default build output
 dist/
+<<<<<<< HEAD
+.cache/
+node_modules
+=======
 
 # Uncomment the public line if your project uses Gatsby
 # https://nextjs.org/blog/next-9-1#public-directory-support
@@ -189,3 +193,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode
+>>>>>>> 0e6b9277cdb557519e5802d93663a59cf610e18d
