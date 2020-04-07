@@ -6,6 +6,11 @@
 
 }
 
+.innov{
+    margin:auto;
+    height:20em;
+    
+}
 
 .equipe{
     margin: auto;
@@ -41,7 +46,6 @@
 
 .histoire{
     margin-top: 3em;
-    background-color:whitesmoke;
     padding-bottom: 2em;
     padding-top: 1em;
 }
@@ -84,6 +88,9 @@
     border-top: 1px black;
     margin-top: 3em;
     background-color: grey;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
 
@@ -96,4 +103,14 @@
     margin-left: 15em;
 }
 
+#main{
 
+    max-width:1280px;
+    
+    min-height:100%;
+    
+    margin:0 auto;
+    
+    position:relative;
+    
+    }
