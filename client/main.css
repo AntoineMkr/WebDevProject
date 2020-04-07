@@ -114,3 +114,24 @@
     position:relative;
     
     }
+
+.natacha:hover{
+
+    content: 'Natacha'
+
+}
+
+.valentin:hover{
+
+    content: 'Valentin'
+}
+
+.antoine:hover{
+
+    content: 'Antoine'
+}
+
+.lou:hover{
+
+    content: 'Lou'
+}
